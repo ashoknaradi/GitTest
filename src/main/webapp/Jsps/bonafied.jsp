@@ -4,18 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-<div align = "center">
-<font color = "blue" >Student Registration</font>
-<form action="studentButton">
-<input type = "submit" value = "STUDENT"/></br>
-</form>
-
-<form action="bonafieddetail">
+${message}
+<form action="${pageContext.request.contextPath}/bonafied">
+StudentRollNo<input type="text" name="stdroll"></br>
+StudentName:<input type="text" name="stdname"></br>
+ApplyPurpose:<input type="text" name="apply"></br>
+Branch:<select name="branch">
+<option>cse</option>
+<option>eee</option></select></br>
 <input type="submit" value="ApplyBonafied">
 </form>
-</div>
 </body>
 </html>
