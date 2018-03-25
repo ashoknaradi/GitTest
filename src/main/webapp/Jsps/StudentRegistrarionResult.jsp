@@ -4,14 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Home Page</title>
+<title>Insert title here</title>
 </head>
 <body>
-<div align = "center">
-<font color = "blue" >Student Registration</font>
-<form action="studentButton">
-<input type = "submit" value = "STUDENT"/>
-</form>
-</div>
+Registration Successfully!!!!!
 </body>
 </html>
