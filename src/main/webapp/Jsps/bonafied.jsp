@@ -7,13 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/register">
-StudentID:<input type="text" name="stdid"></br>
+${message}
+<form action="${pageContext.request.contextPath}/bonafied">
 StudentRollNo<input type="text" name="stdroll"></br>
 StudentName:<input type="text" name="stdname"></br>
-Year<input type="text" name="stdyear"></br>
-CollegeName<input type="text" name="collegename"></br>
-<input type="submit" value="register">
+ApplyPurpose:<input type="text" name="apply"></br>
+Branch:<select name="branch">
+<option>cse</option>
+<option>eee</option></select></br>
+<input type="submit" value="ApplyBonafied">
 </form>
 </body>
 </html>
