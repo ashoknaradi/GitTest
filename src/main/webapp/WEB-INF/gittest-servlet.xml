@@ -9,16 +9,10 @@
         http://www.springframework.org/schema/context/spring-context.xsd ">
 
 	<context:component-scan base-package="Controllers" />
-<bean id = "studentdao" class = "Daos.StudentDao"></bean>
-<bean id="ppt" class="Daos.Bonafieddao"></bean>
-	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <property name="prefix" value="/Jsps/" />
-    <property name="suffix" value=".jsp" />
-</bean>
-	
-
-	
-	
-
-
+	<bean id="studentdao" class="Daos.StudentDao"></bean>
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/Jsps/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
 </beans>
