@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,11 +7,13 @@
 <title>Home Page</title>
 </head>
 <body>
-<div align = "center">
-<font color = "blue" >Student Registration</font>
-<form action="studentButton">
-<input type = "submit" value = "STUDENT"/>
-</form>
-</div>
+	<div align="center">
+		<h1>
+			<font color="blue">Student Home Page</font>
+		</h1>
+		<form action="studentButton">
+			<input type="submit" value="Student Registration" />
+		</form>
+	</div>
 </body>
 </html>

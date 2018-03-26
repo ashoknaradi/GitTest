@@ -2,7 +2,7 @@ package Daos;
 
 import org.hibernate.classic.Session;
 
-import com.Pojo.Student;
+import Pojos.Student;
 
 public class StudentDao {
 

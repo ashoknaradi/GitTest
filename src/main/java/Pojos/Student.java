@@ -1,4 +1,4 @@
-package com.Pojo;
+package Pojos;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -15,7 +15,6 @@ public class Student {
 	private String college;
 	private String emailid;
 	private String phoneno;
-	
 	
 	public Integer getId() {
 		return id;
