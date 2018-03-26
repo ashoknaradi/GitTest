@@ -15,5 +15,4 @@
 		<property name="prefix" value="/Jsps/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
-
 </beans>
